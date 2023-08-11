@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-tree-select": "@vant/weapp/tree-select/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-icon": "@vant/weapp/icon/index"
+  },
+    "navigationBarTitleText": "公寓"
+}

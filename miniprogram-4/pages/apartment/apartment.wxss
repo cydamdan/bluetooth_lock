@@ -1,0 +1,7 @@
+/* pages/apartment/apartment.wxss */
+#manage{
+float: right;
+}
+#usual{
+float: right;
+}

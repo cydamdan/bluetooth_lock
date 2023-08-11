@@ -1,0 +1,30 @@
+image{
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid black; */
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+}
+.box{
+  width: 90%;
+  margin-left: 5%;
+}
+.main{
+  margin-top: 30px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.function{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+navigator{
+  width: 100px;
+  height: 90px;
+}

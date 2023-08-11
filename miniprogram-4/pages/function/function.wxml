@@ -1,0 +1,42 @@
+<view class="body">
+  <view class="box">
+    <view class="main">
+      <navigator url="/pages/subsidy/subsidy">
+        <view class="function">
+          <image src="/image/教职工人.png" mode=""/>
+          <text>教职工补贴</text>
+        </view>
+      </navigator>
+      <navigator url="/pages/certificate/certificate">
+        <view class="function">
+          <image src="/image/消费券.png" mode=""/>
+          <text>消费券领取</text>
+        </view>
+      </navigator>
+      <navigator url="/pages/recharge/recharge">
+        <view class="function">
+          <image src="/image/充值.png" mode=""/>
+          <text>一卡通充值</text>
+        </view>
+      </navigator>
+      <navigator url="/pages/logs/logs">
+        <view class="function">
+         <image src="/image/消费记录.png" mode=""/>
+         <text>消费记录</text>
+       </view>
+      </navigator>
+      <navigator url="">
+        <view class="function">
+          <image src="/image/挂失.png" mode=""/>
+          <text>一卡通挂失</text>
+        </view>
+      </navigator>
+      <navigator url="">
+        <view class="function">
+          <image src="/image/注销.png" mode=""/>
+          <text>一卡通注销</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

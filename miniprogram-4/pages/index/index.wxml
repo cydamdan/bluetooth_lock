@@ -1,0 +1,27 @@
+<view class="box">
+  <view class="top">
+    <view class="top-cspt top-current"><navigator url="/pages/function/function"><image src="/image/cspt-white.png" mode=""/><text>一卡通</text></navigator></view>
+    <view class="top-lock top-current">
+      <navigator url="/pages/smartlock_test/smartlock_test">
+        <image src="/image/lock-white.png" mode=""/>
+        <text>智能门锁</text>
+    </navigator>
+    </view>
+  </view>
+  <view class="main">
+  <view class="main-box">
+    <view class="main-cspt main-current"><image src="/image/cspt-yellow.png" mode=""/><text>一卡通</text></view>
+    <view class="main-lock main-current">
+    <navigator url="../apartment/apartment">
+    <image src="/image/lock-yellow.png" mode=""/><text>公寓</text>
+    </navigator>
+  </view>
+  
+   
+  
+    <view class="main-drip main-current"><image src="/image/drip.png" mode=""/><text>用水</text></view>
+    <view class="main-light main-current"><image src="/image/lightning.png" mode=""/><text>用电</text></view>
+    <view class="main-motion main-current"><image src="/image/motion.png" mode=""/><text>体育</text></view>
+  </view>
+  </view>
+</view>

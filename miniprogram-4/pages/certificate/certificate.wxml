@@ -1,0 +1,23 @@
+<view class="body">
+  <view class="box">
+    <view class="left">
+      <view class="title">个人信息</view>
+      <text class="display">姓 名</text>
+      <view class="main-text">马xx</view>
+      <text class="display">学工号</text>
+      <view class="main-text">4434343135354</view>
+      <text class="display">部门</text>
+      <view class="main-text">后勤</view>
+    </view>
+    <view class="right">
+      <view class="title">卡余信息</view>
+      <text class="display">卡前金额</text>
+      <view class="main-text">0.00</view>
+      <text class="display">领取金额</text>
+      <view class="main-text">100.00</view>
+      <text class="display">卡后金额</text>
+      <view class="main-text">100.00</view>
+    </view>
+  </view>
+  <view class="confirm"><button>确认支付</button></view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/smartlock/smartlock.wxml-->
+<van-circle value="{{ value }}" size="300" stroke-width="6" speed="100" text="{{text}}" />

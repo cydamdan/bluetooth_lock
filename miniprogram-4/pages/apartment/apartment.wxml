@@ -1,0 +1,29 @@
+<!--pages/apartment/apartment.wxml-->
+
+  <view id="usual">
+    <van-button type="info" plain size="small" icon="star-o"
+    bindtap="addUsual">
+    常用
+    </van-button>
+    <!-- van-toast节点 -->
+    <van-toast id="van-toast"/>
+  </view>
+  
+
+
+<van-tree-select
+  height="500"
+  items="{{ items }}"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+/> 
+ 
+
+<navigator url="../apartment_connect/apartment_connect">
+<van-button type="info" size="large">开门</van-button>
+</navigator>
+
+
+

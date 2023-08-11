@@ -1,0 +1,30 @@
+<view class="body">
+  <view class="box">
+    <view class="main">
+      <view class="top">
+        <view class="top-top">
+        <view class="tt-left">
+        <text>姓名：</text><view id="name">马礼品</view>
+        </view>
+        <view class="tt-right">
+        <text>卡号：</text><view id="accoun">123456789</view>
+        </view>
+        </view>
+        <view class="top-bottom">
+        <text>卡内余额：</text>
+        <view id="money">50</view><text class="money">￥</text>
+        </view>
+      </view>
+      <view class="bottom">
+        <view class="bottom-top">充值金额</view>
+        <view class="bottom-but">
+        <button style="width: 120px;">50</button>
+        <button style="width: 120px;">100</button>
+        <button style="width: 120px;">200</button>
+        <button style="width: 120px;">500</button>
+        </view>
+      </view>
+    </view>
+    <view class="confirm"><button>确认支付</button></view>
+  </view>
+</view>

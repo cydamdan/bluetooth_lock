@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recharge/recharge",
+    "pages/subsidy/subsidy",
+    "pages/function/function",
+    "pages/certificate/certificate",
+    "pages/logs/logs",
+    "pages/smartlock/smartlock",
+    "pages/setuuid/setuuid",
+    "pages/comm/comm",
+    "pages/about/about",
+    "pages/apartment/apartment",
+    "pages/manage/mange",
+    "pages/smartlock_test/smartlock_test",
+    "pages/apartment_connect/apartment_connect"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#36AADE",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#fcfcfc",
+    "backgroundColor": "#36AADE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "业务中心"
+      },
+      {
+        "pagePath": "pages/recharge/recharge",
+        "text": "一卡通个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

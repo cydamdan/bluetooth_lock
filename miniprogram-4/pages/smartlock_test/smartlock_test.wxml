@@ -1,0 +1,16 @@
+<!--pages/smartlock_test/smartlock_test.wxml-->
+<view>常用宿舍为：{{usual}}</view>
+<van-circle value="{{ value }}" size="300" stroke-width="6" speed="100" text="{{text}}" />
+<view style='display:none' class="connected_info" wx:if="{{connected}}">
+  <view>
+    <text>已连接到 {{name}}</text>
+    <view class="operation">
+    <!-- <button wx:if="{{canWrite}}" size="mini" bindtap="writeBLECharacteristicValue">写数据</button> -->
+    <button size="mini" bindtap="closeBLEConnection">断开连接</button>
+    </view>
+  </view>
+  <!-- <view wx:for="{{chs}}" wx:key="index" style="font-size: 12px; margin-top: 10px;">
+    <view>特性UUID: {{item.uuid}}</view>
+    <view>特性值: {{item.value}}</view>
+  </view> -->
+</view>

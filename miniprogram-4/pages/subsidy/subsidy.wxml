@@ -1,0 +1,42 @@
+<view class="body">
+  <view class="box">
+    <view class="top">
+      <view class="person">
+       <view class="title">个人信息</view>
+       <view class="person-main">
+          <text>姓 名</text>
+          <view class="main-text">马xx</view>
+          <text>学工号</text>
+          <view class="main-text">4434343135354</view>
+          <text>部门</text>
+          <view class="main-text">后勤</view>
+       </view>
+      </view>
+      <view class="perk">
+        <view class="title">补贴信息</view>
+        <view class="perk-main">
+          <text>补贴模式</text>
+          <view class="main-text"></view>
+          <text>补贴次数</text>
+          <view class="main-text">20</view>
+        </view>
+      </view>
+      <view class="card">
+        <view class="title">卡余信息</view>
+        <view class="card-main">
+          <text>卡前金额</text>
+          <view class="main-text">0.00</view>
+          <text>补贴金额</text>
+          <view class="main-text">100.00</view>
+          <text>卡后金额</text>
+          <view class="main-text">100.00</view>
+        </view>
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="bottom-title">消费明细</view>
+      <view class="bottom-main"></view>
+      <view class="confirm"><button>确认支付</button></view>
+    </view>
+  </view>
+</view>

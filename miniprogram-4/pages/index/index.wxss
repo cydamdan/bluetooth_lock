@@ -1,0 +1,98 @@
+.box{
+  height: 100vh;
+  width: 100vw;
+  background-color:#E5E5E5 ;
+  padding-top: 10px;
+}
+image{
+  width: 20px;
+  height: 25px;
+}
+.top{
+  margin-bottom: 10px;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 20%;
+  background-color: #36AADE;
+  display: flex;
+  justify-content:space-around;
+  border-radius: 15px;
+}
+.top-current text{
+  color: white;
+}
+.top-current navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.main{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 35%;
+  background-color: #fcfcfc;
+  border-radius: 15px;
+}
+.main-box{
+  height: 100%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-current{
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.main-current text{
+  font-size: 14px;
+}
+
+.main-current image{
+  margin-bottom: 15px;
+}
+.top-cspt image{
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.top-lock image{
+  width: 30px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.main-cspt image{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.main-lock image{
+  width: 20px;
+}
+/* 将navigator中的图标和文字对齐 */
+.main-lock navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-drip image{
+  width: 15px;
+  height: 25px;
+}
+.main-light image{
+  width: 20px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.main-motion image{
+  width: 25px;
+  height: 25px;
+}

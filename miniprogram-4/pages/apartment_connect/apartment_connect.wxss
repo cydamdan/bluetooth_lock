@@ -1,0 +1,37 @@
+/* pages/apartment_connect/apartment_connect.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rssi {
+  font-size: 14px;
+  color: #999;
+}

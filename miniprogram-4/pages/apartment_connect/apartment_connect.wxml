@@ -1,0 +1,13 @@
+<!--pages/apartment_connect/apartment_connect.wxml-->
+<view class="container">
+  <van-toast id="van-toast" />
+  <view class="title">蓝牙设备列表</view>
+  <view class="list">
+    <block wx:for="{{devices}}" wx:key="index">
+      <view class="item" bindtap="connectDevice" data-device="{{item}}">
+        <view class="name">{{item.name}}</view>
+        <view class="rssi">信号强度：{{item.RSSI}}</view>
+      </view>
+    </block>
+  </view>
+</view>
